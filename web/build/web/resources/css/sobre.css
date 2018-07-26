@@ -1,0 +1,145 @@
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+h2{
+	text-align: center;
+
+}
+
+body{
+	background-image: url("../img/fundo4.png");
+
+
+}
+
+
+
+h1{
+	text-align: center;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #0014f5;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #ffcc00;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  color: #ffcc00;  
+  background: #0014f5;
+  text-decoration: none;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+.btn-edu{
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #e60000;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #28d025;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-edu:hover{
+  color: #00e600;
+  background: #e60000;
+  text-decoration: none;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+.btn-acao{
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffcc00;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #0014f5;
+  border: solid #000000 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-acao:hover{
+  color: #0014f5;  
+  background: #ffcc00;
+  text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------------*/
+.btn-cons{
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #28d025;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #e60000;
+  border: solid #000000 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-cons:hover{
+  color: #e60000;
+  background: #28d025;
+  text-decoration: none;
+}
+
+.panel-body{
+    line-height: 28px !important;  
+    padding-bottom: 20px !important; 
+    padding-top: 20px !important; 
+    text-align: justify !important;
+}
